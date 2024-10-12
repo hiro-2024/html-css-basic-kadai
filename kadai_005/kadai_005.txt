@@ -1,0 +1,12 @@
+mkdir kadai_005
+CD kadai_005
+touch example.txt
+echo "Hello World" > example.txt
+
+ls
+
+cd kadai_005
+
+nano kadai_005.txt
+
+cat kadai_005.txt
