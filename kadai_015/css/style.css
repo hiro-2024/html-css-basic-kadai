@@ -3,8 +3,6 @@ body {
   font-family: "Arial", "Meiryo", sans-serif; 
   font-size: 20px;
   text-align: center;
-  
-
 } 
 
 h1 {
@@ -17,17 +15,29 @@ h1 {
   text-shadow: 1px 1px 2px gray
 }
 
+br {
+  border-style: solid;
+  border: 3px;
+  border-bottom-color: rgb(115, 115, 114);
+} 
+
+
 .text-skybule {
   color: skyblue;
 }
 
 .text-pink {
-  color: rgb(255, 192, 203) 
+  color: rgb(255, 192, 203); 
 }
 
-span {
+span.skyblue {
   color: skyblue;
 }
+
+span.pink {
+   color: rgb(255, 192, 203);
+}  
+
 
 #font-weight {
   font-weight: bold;
