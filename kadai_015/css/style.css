@@ -1,14 +1,17 @@
 @charset "utf-8";
 body {
   font-family: "Arial", "Meiryo", sans-serif; 
-  font-size: 20px;
+  font-size: 2rem;
   text-align: center;
 } 
+.decoration {
+  border: solid 3px rgb(115, 115, 114);
+}
 
 h1 {
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 40px;
+  font-weight: 2rem;
   font-style: normal;
   text-align: center;
   letter-spacing: 1.2em;
