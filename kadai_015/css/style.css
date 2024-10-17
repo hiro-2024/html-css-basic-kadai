@@ -13,17 +13,22 @@ html {
   border: solid 3px rgb(115, 115, 114);
 }
 
+style:root {
+    font-size: 20px;
+  }
+
+
 h1 {
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 2rem;
+  font-weight: 2em;
   font-style: normal;
   text-align: center;
   letter-spacing: 1.2em;
   text-shadow: 1px 1px 2px gray
 }
 
-p {
+h1 class {
   border-style: solid;
   border: 3px;
   border-bottom-color: rgb(115, 115, 114);
