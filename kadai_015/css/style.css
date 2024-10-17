@@ -1,9 +1,14 @@
 @charset "utf-8";
 body {
   font-family: "Arial", "Meiryo", sans-serif; 
-  font-size: 20px;
   text-align: center;
 } 
+
+hatch {
+  font-size: 20px;
+}
+
+
 .decoration {
   border: solid 3px rgb(115, 115, 114);
 }
@@ -18,7 +23,7 @@ h1 {
   text-shadow: 1px 1px 2px gray
 }
 
-br {
+p {
   border-style: solid;
   border: 3px;
   border-bottom-color: rgb(115, 115, 114);
@@ -40,10 +45,6 @@ span.skyblue {
 span.pink {
    color: rgb(255, 192, 203);
 }  
-
-#font-weight {
-  font-weight: bold;
-}
 
 #basic > p {
   font-weight: bold;
