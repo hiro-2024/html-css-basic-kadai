@@ -2,10 +2,9 @@
 body {
   font-family: "Arial", "Meiryo", sans-serif; 
   text-align: center;
-  font-size: 20px;
 } 
 
-.decoration {
+h1.decoration {
   border: solid 3px rgb(115, 115, 114);
 }
 
@@ -13,10 +12,14 @@ style:root {
   font-size: 20px;
 }
 
+html {
+  font-size: 20px;
+}
+
 h1 {
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 2rem;
+  font-size: 2rem;
   font-style: normal;
   text-align: center;
   letter-spacing: 1.2em;
