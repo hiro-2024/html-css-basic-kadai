@@ -4,7 +4,7 @@ body {
   text-align: center;
 } 
 
-h1.decoration {
+div.decoration {
   border: solid 3px rgb(115, 115, 114);
 }
 
@@ -26,7 +26,7 @@ h1 {
   text-shadow: 1px 1px 2px gray
 }
 
-h1 class {
+div class {
   border-style: solid;
   border: 3px;
   border-bottom-color: rgb(115, 115, 114);
