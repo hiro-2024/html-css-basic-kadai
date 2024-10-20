@@ -4,10 +4,6 @@ body {
   text-align: center;
 } 
 
-div.decoration {
-  border: solid 3px rgb(115, 115, 114);
-}
-
 style:root {
   font-size: 20px;
 }
@@ -26,12 +22,9 @@ h1 {
   text-shadow: 1px 1px 2px gray
 }
 
-div class {
-  border-style: solid;
-  border: 3px;
-  border-bottom-color: rgb(115, 115, 114);
-} 
-
+.bottom-border {
+  border-bottom: 3px solid rgb(115, 115, 114);
+}
 
 .text-skybule {
   color: skyblue;
