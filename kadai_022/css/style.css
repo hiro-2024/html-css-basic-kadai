@@ -43,6 +43,7 @@ h1 {
 
 h2 {
     border-bottom: dotted 3px rgb(236, 122, 122);
+    font-size:25px;
     
 }
 
@@ -63,13 +64,13 @@ div p:nth-of-type(2)::first-letter {
 }
 
 header {
-    margin: 20px;
+    margin-bottom: 20px;
     background-color: rgb(244, 79, 79);
     color: rgb(255, 255, 255) ;
     text-align: center;
 }
 
-main {
+padding {
     margin: 10px;
 }
 
@@ -93,14 +94,6 @@ a:hover {
 
 .flexbox-container {
     
-        display: flex;
-        padding: 5px;
-        
+    display: flex;
+    padding: 5px;
 }
-.flexbox-item {
-        justify-content: cspace-around;
-        padding: 5px;
-        margin: 5px;
-        background-color: orange;
-}
-
