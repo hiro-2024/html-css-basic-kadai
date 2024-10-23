@@ -8,7 +8,7 @@
         font-size: 25px;
     }
     #parent {
-		display: flexbox;
+		flex-direction: column;
 	}
 }
 
@@ -19,9 +19,9 @@
 }
 
 #parent {
-    flex-direction:column;
+    display: flex;
     justify-content: space-around;
-    width: 100%;
+    
 }
 
 .contents {
@@ -97,9 +97,3 @@ a:hover {
     color: rgb(245, 178, 168);
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 5px;
-}
