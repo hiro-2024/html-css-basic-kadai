@@ -8,13 +8,18 @@
         font-size: 25px;
     }
     #parent {
-		display: block;
+		display: flexbox;
 	}
+}
 
+@media screen and (min-width: 768px) {
+    h2 {
+        font-size: 25px;
+    }
 }
 
 #parent {
-    
+    flex-direction:column;
     justify-content: space-around;
     width: 100%;
 }
@@ -92,8 +97,9 @@ a:hover {
     color: rgb(245, 178, 168);
 }
 
-.flexbox-container {
-    
+.flex-container {
     display: flex;
+    flex-direction: column;
+    text-align: center;
     padding: 5px;
 }
